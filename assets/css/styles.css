@@ -64,3 +64,36 @@ img, svg {
   background-color: rgba(186,79,2,0.09);
 }
 
+h2 {
+  padding: 10px;
+}
+
+#calorias {
+  background-color: rgba(255,255,255,0.16);
+  text-align: center;
+  text-decoration-color: #f1f1f1;
+  table-layout: auto;
+  padding: auto;
+  margin: auto;
+}
+
+#tablerow {
+  background-color: rgba(143,146,150,0.1);
+  color: white;
+}
+
+#tablerow :hover {
+  background-color: rgba(119,129,143,0.4);
+  color: white;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#suscrib-div {
+  padding: 5px;
+  margin: 5px;
+}
+
+#bodyproductos {
+}
+
