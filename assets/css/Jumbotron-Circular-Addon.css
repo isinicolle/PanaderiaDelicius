@@ -56,6 +56,10 @@
   padding: 40px 0;
 }
 
+.informacion .row .col :hover{
+ background-color: rgba(223, 157, 136, 0.226);
+}
+
 .row {
   margin: 0 auto;
   padding: 10px;
@@ -82,7 +86,7 @@
 }
 
 .jumbotron {
-  background-color: #8f9296;
+  background-color: #1f2630;
 }
 
 #img-zoom {
@@ -96,8 +100,7 @@
   margin: 5px;
 }
 
-.row {
-}
+
 
 #imagen1 {
   max-height: 40px;
