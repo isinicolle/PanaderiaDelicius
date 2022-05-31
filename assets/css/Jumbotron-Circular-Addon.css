@@ -120,10 +120,11 @@ section {
 }
 
 .textobanner{
-  padding: 50px;
-  margin: 55px;
-  text-align: center;
+  padding: 20px;
+  margin: 25px;
+  text-align: justify;
   font-size: 20px;
-   background-color: #b9a3630e;
+   background-color: #b9a36315;
    display: block;
+   
 }
