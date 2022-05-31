@@ -3379,23 +3379,22 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #446e9b;
-    border-color: #446e9b
+    color: rgb(100, 73, 73);
+    background-color: #d18a47;
+    border-color: #ea560b
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #3a5e84;
-    border-color: #36587c
+    background-color: #d18a47;
+    border-color: #ea560b
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #3a5e84;
-    border-color: #36587c;
-    box-shadow: 0 0 0 .25rem rgba(96, 132, 170, .5)
+    background-color: #d18a47;
+    border-color: #ea560b box-shadow: 0 0 0 .25rem rgba(96, 132, 170, .5)
 }
 
 .btn-check:active+.btn-primary,
@@ -3404,8 +3403,8 @@ fieldset:disabled .btn {
 .btn-primary:active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #36587c;
-    border-color: #335374
+    background-color: #d18a47;
+    border-color: #ea560b
 }
 
 .btn-check:active+.btn-primary:focus,
@@ -3419,8 +3418,8 @@ fieldset:disabled .btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #446e9b;
-    border-color: #446e9b
+    background-color: #d18a47;
+    border-color: #ea560b
 }
 
 .btn-secondary {
@@ -8232,7 +8231,7 @@ fieldset:disabled .btn {
 
 .flex-column {
     -ms-flex-direction: column !important;
-    flex-direction: column !important
+    flex-direction: column !important;
 }
 
 .flex-row-reverse {
@@ -8630,8 +8629,7 @@ fieldset:disabled .btn {
 }
 
 .mb-4 {
-    margin-bottom: 1.5rem !important;
-    font-family: 'Amaranth';
+    margin-bottom: 1.5rem !important
 }
 
 .mb-5 {
@@ -9970,7 +9968,7 @@ fieldset:disabled .btn {
 
     .d-md-flex {
         display: -ms-flexbox !important;
-        display: flex !important
+        display: flex !important;
     }
 
     .d-md-inline-flex {
@@ -12861,10 +12859,10 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-    background-image: linear-gradient(#7191b3, #446e9b 50%, #3f658f);
     -webkit-filter: none;
     filter: none;
-    border: 1px solid #36587c
+    border: 1px solid #36587c;
+    width: 45%;
 }
 
 .btn-primary:not(.disabled):hover {
