@@ -119,3 +119,9 @@ section {
   padding: 20px;
 }
 
+.textobanner{
+  padding: 20px;
+  margin: 25px;
+  text-align: justify;
+  font-size: 20px; background-color: #b9a36315;
+}
