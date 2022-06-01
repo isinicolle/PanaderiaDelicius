@@ -1,4 +1,5 @@
-# PanaderiaDelicius PLAN A
+[# PanaderiaDelicius PLAN A](https://isiszapatahn.github.io/) 
+Entrar al link de arriba para ver la pagina sin necesidad de copiar el repositorio
 Grupo #2 Panaderia Delicius , proyecto de Negocios Web primer parcial
 ##Equipo conformado por
 #AleX Sandoval
