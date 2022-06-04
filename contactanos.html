@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/Pricing-Centered-1.css">
     <link rel="stylesheet" href="assets/css/Pricing-Centered.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
 </head>
 
 <body>
@@ -108,15 +108,24 @@
                         </div>
                         <div class="col-md-6 col-lg-3 col-xl-4 offset-xxl-0">
                             <div>
-                                <form class="p-3 p-xl-4" method="post">
+                                <form class="form p-3 p-xl-4" method="post" role="form" autocomplete="off" novalidate>
                                     <h1 class="susDatos">Sus Datos</h1>
                                     <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name"
-                                            placeholder="Nombre Completo"></div>
+                                            placeholder="Nombre Completo" required>
+                                    </div>
+
                                     <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email"
-                                            placeholder="Correo electrónico"></div>
+                                            placeholder="Correo electrónico" required>
+                                    </div>
+
+                                    <div class="mb-3"><input class="form-control" type="number" id="name-2" name="name"
+                                            placeholder="Teléfono" required>
+                                    </div>
+
                                     <div class="mb-3"><input class="form-control" type="date"></div>
-                                    <div class="mb-3"><textarea class="form-control" id="message-2" name="message"
-                                            rows="6" placeholder="Mensaje o comentario"></textarea></div>
+
+                                    <div class="mb-3"><textarea required class="form-control" id="message-2"
+                                            name="message" rows="6" placeholder="Mensaje o comentario"></textarea></div>
                                 </form>
                             </div>
                         </div>
@@ -129,7 +138,7 @@
                     </div>
 
                 </div>
-                <button class="btn btn-primary" id="enviar" type="submit"> Enviar </button>
+                <button class="btn btn-primary" id="enviar" type="submit" value="Save Changes"> Enviar </button>
             </section>
         </div>
     </div>
