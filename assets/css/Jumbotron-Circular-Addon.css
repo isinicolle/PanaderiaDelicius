@@ -42,8 +42,7 @@
   background-color: inherit;
 }
 
-.jumbotron-addon-circle>span,
-.jumbotron-addon-circle>i {
+.jumbotron-addon-circle > span, .jumbotron-addon-circle > i {
   display: block;
   width: 48px;
   height: 48px;
@@ -57,8 +56,8 @@
   padding: 40px 0;
 }
 
-.informacion .row .col :hover {
-  background-color: rgba(223, 157, 136, 0.226);
+.informacion .row .col :hover{
+ background-color: rgba(223, 157, 136, 0.226);
 }
 
 .row {
@@ -72,7 +71,7 @@
 }
 
 #logo {
-  max-height: 50px;
+  max-height: 42px;
   margin-right: 16px;
   margin-top: -3px;
   display: inline-block;
@@ -113,19 +112,19 @@
 }
 
 #galeriacontainer {
-  background-color: rgba(237, 234, 233, 0.58);
+  background-color: rgba(237,234,233,0.58);
 }
 
 section {
   padding: 20px;
 }
 
-.textobanner {
-  padding: 15px;
-  margin: 0px;
+.textobanner{
+  padding: 20px;
+  margin: 25px;
   text-align: justify;
-  font-size: 15px;
-  background-color: #ffc10815;
-  display: block;
-
+  font-size: 20px;
+   background-color: #ffc10815;
+   display: block;
+   
 }

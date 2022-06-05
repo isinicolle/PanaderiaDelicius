@@ -1,6 +1,6 @@
 #promo {
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   background: url("../../assets/img/bg.jpg");
   background-size: cover;
 }
@@ -13,7 +13,7 @@
 
 .container {
   background-color: rgba(255, 228, 196, 0.08);
-  padding: 10px;
+  padding: 40px;
   margin: 0 auto;
 }
 
@@ -47,7 +47,6 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-family: 'Amaranth';
-  font-size: 13px;
 }
 
 .bg-light {
@@ -106,13 +105,6 @@ h2 {
   margin-top: -45%;
 }
 
-@media (min-width:400px) {
-
-  .contactenos {
-    margin-top: -40px;
-  }
-}
-
 .susDatos {
   display: block;
   width: 100%;
@@ -153,8 +145,4 @@ h2 {
   background-color: rgba(255, 228, 196, 0.08);
   padding: 10px;
   margin: 0 auto;
-}
-
-.texto {
-  font-size: 15px;
 }
