@@ -34,6 +34,18 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+#darkpanaderia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+
 @media (min-width:1200px) {
 
   .h1,
