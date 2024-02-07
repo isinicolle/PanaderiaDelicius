@@ -1,6 +1,6 @@
 ## Panaderia Delicius
 
-Elaborado con 
+Elaborado con:
 
 - HTML
 - CSS
